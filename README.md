@@ -1,1 +1,1 @@
-# Animated progress bar with SVG clipPath and keyframe
+# Animated progress bar with SVG clipPath and css @keyframe

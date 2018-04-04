@@ -1,0 +1,35 @@
+#wrapperMaxWidth {
+  max-width: 700px;
+}
+
+#loadingWrapper {
+  position: relative;
+}
+
+#loadingWrapper .clippedLoading {
+  clip-path: url(#clipPath);
+  -webkit-clip-path: url(#clipPath);
+  height: 100%;
+  background: rgb(69, 126, 78);
+  width: 100%;
+  position: absolute;
+  top: 0;
+}
+
+.animatedAdvacedProgress {
+  position: absolute;
+  background: rgb(6, 240, 6);
+  height: 60%;
+  width: 100%;
+  bottom: 0;
+  animation: progressBarAnimation 2s;
+}
+
+@keyframes progressBarAnimation {
+  from {
+    height: 0;
+  }
+  to {
+    width: 100%;
+  }
+}

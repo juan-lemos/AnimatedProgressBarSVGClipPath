@@ -33,3 +33,9 @@
     width: 100%;
   }
 }
+
+
+body {
+  background: linear-gradient(to bottom right, #52d454, #4d90a5, #52d454);
+  min-height: 100vh;
+}
